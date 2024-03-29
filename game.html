@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="game.css" />
+    <style>
+        h1{
+            font-size:60px ; 
+            color:#d9f7f7 ;  
+            margin-top:20px
+        }
+        h1:hover{
+            color: #0f0f0f;
+            font-size:62px;
+            color:#d9f7f7;
+            text-shadow: 0px 0px 5px white,
+                         0px 0px 9px #afafaf ,
+                         0px 0px 17px #a09f9f,
+                         0px 0px 20px #a4a4a4;
+            
+            margin-left:20px;
+             margin-right:25px;
+            
+           
+            
+        }
+        #reset-btn:hover{
+            padding: 1rem;
+            font-size: 1.35rem;
+            background-color: #191913;
+            color: #fbe0c9;
+            border-radius: 1rem;
+            border: none;
+            text-shadow: 0px 0px 5px #f9dabf,
+                         0px 0px 20px #ddc2ab;
+        }
+        #new-btn:hover{
+          padding: 1rem;
+            font-size: 1.35rem;
+            background-color: #191913;
+            color: #fbe0c9;
+            border-radius: 1rem;
+            border: none;
+            text-shadow: 0px 0px 5px #f9dabf,
+                         0px 0px 20px #ddc2ab;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="msg-container hide">
+      <p id="msg">The Winner</p>
+      <button id="new-btn">New Game</button>
+    </div>
+    <main>
+      <h1>TIC-TAC-TOE</h1>
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">RESET THE GAME</button>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
