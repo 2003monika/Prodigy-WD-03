@@ -1,2 +1,2 @@
 # Prodigy-task1
-Responsive Task Management website
+Tic-Tac-Toe game 
